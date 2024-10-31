@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>slides on -veldrane</title>
-    <link>http://localhost:1313/slides/</link>
-    <description>Recent content in slides on -veldrane</description>
+    <title>projects on -veldrane</title>
+    <link>https://veldrane.github.io/slides/</link>
+    <description>Recent content in projects on -veldrane</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/slides/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldrane.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>openshift sdn cni</title>
-      <link>http://localhost:1313/slides/ocp-sdn/</link>
+      <link>https://veldrane.github.io/slides/openshift-sdn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/ocp-sdn/</guid>
+      <guid>https://veldrane.github.io/slides/openshift-sdn/</guid>
       <description>&lt;p&gt;Stuff for openshift slides, presented on Prague Kubernetes conference 22.sep.2019. Presentation contains deep-dive into openshift-sdn cni plugin (since ocp 4.12 is depcrecated - look at kubernetes-ovn)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/openshift-sdn&#34;&gt;https://github.com/veldrane/openshift-sdn&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
