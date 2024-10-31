@@ -1,0 +1,22 @@
+baseURL = 'https://veldrane.github.io/'
+languageCode = 'en-us'
+title = '-veldrane'
+theme = 'risotto'
+enableInlineShortcodes = true
+
+[params]
+sectionPagesMenu = "main"
+
+
+[menu]
+  [[menu.main]]
+  identifier = "projects"
+  name = "projects"
+  url = "/projects/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "slides"
+  name = "slides"
+  url = "/slides/"
+  weight = 2

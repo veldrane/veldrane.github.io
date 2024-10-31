@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on -veldrane</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in projects on -veldrane</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>checkpoint &lt;-&gt; openshift 3.x/4.x</title>
+      <link>http://localhost:1313/projects/ocp-egress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ocp-egress/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;A simple OpenShift controller for synchronizing external services and egress IP firewall rules. Rulesets are defined at the OpenShift namespace level using annotations. The controller does not utilize any operator framework, such as Kubebuilder, and instead polls the OpenShift API in a separate thread using standard get requests. It relies heavily on the OpenShift SDN CNI.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/ocp-chckp-egress&#34;&gt;https://github.com/veldrane/ocp-chckp-egress&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab roles, scripts, helm charts...</title>
+      <link>http://localhost:1313/projects/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/lab/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ansible roles and bash scripts for building lab environment for testing mostly microservice architecture. The stack is build on the top of kvm and rocky linux 9 (use please rocky9 branch)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/lab&#34;&gt;https://github.com/veldrane/lab&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nginx plus keyval syncer</title>
+      <link>http://localhost:1313/projects/ocp-syncer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ocp-syncer/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;This Golang tool checks for synchronization status across instances within the distributed key-value store of NGINX Plus in Kubernetes/OpenShift environments. Its purpose is to ensure that each instance has a consistent set of records, which is crucial for use cases like token verification. For example, if one instance has a token record but another does not yet reflect this, the verification may fail even though the token is valid. Custom JavaScript/Lua coding on the NGINX side is required for full integration. This tool was developed to meet specific customer requirements for distributed consistency&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ovn kubernetes hints</title>
+      <link>http://localhost:1313/projects/ovn-kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ovn-kubernetes/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Some study materieal for learning ovn-kubernetes and ovn, its architecture and basic command usage.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/ovn-kubernetes-hints&#34;&gt;https://github.com/veldrane/ovn-kubernetes-hints&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ovn-kubernetes.io/&#34;&gt;https://ovn-kubernetes.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ovn-org/ovn-kubernetes&#34;&gt;https://github.com/ovn-org/ovn-kubernetes&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>swagger to nginx cfg transformation tool</title>
+      <link>http://localhost:1313/projects/swag2nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/swag2nginx/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;This configuration generator uses an OpenAPI definition along with Golang templates to create NGINX include configuration files. While primarily designed for generating NGINX configs, it can also be adapted for similar types of configuration outputs. The tool allows developers to automate and standardize the creation of configurations based on API specifications, reducing manual setup time and ensuring consistency across deployments. While functional, the code itself could use some refactoring for clarity and maintainability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>syscall analyzer</title>
+      <link>http://localhost:1313/projects/syscall-analyzer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/syscall-analyzer/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;A proof of concept for a new approach to syscall analysis. This tool extracts data from strace, adds missing context, and stores it in a document-oriented database like Elasticsearch for further analysis. It’s particularly useful for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Revealing the internal architecture of an application from the OS perspective&lt;/li&gt;&#xA;&lt;li&gt;Assisting in the creation of strict security policies&lt;/li&gt;&#xA;&lt;li&gt;Visualizing data flows within the traced application&lt;/li&gt;&#xA;&lt;li&gt;Capturing the application’s state at a specific point in time from the OS viewpoint&lt;/li&gt;&#xA;&lt;li&gt;Conducting application resource analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;And more&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
