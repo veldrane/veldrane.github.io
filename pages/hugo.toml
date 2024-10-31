@@ -4,10 +4,6 @@ title = '-veldrane'
 theme = 'risotto'
 relativeURLs = true
 
-[params]
-sectionPagesMenu = "main"
-
-
 [menu]
   [[menu.main]]
   identifier = "projects"
