@@ -2,8 +2,10 @@ baseURL = 'https://veldrane.github.io/'
 languageCode = 'en-us'
 title = '-veldrane'
 theme = 'risotto'
-relativeURLs = false
-canonifyURLs = false
+relativeURLs = true
+
+[params]
+sectionPagesMenu = "main"
 
 [menu]
   [[menu.main]]
