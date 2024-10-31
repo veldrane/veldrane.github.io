@@ -2,7 +2,7 @@ baseURL = 'https://veldrane.github.io/'
 languageCode = 'en-us'
 title = '-veldrane'
 theme = 'risotto'
-enableInlineShortcodes = true
+relativeURLs = true
 
 [params]
 sectionPagesMenu = "main"
