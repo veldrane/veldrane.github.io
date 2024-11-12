@@ -33,7 +33,7 @@
       <link>https://veldrane.github.io/slides/crypto-ocp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/crypto-ocp/</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;Short presentation for my teammates about cryptography, pki, oidc etc.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/crypto-ocp&#34;&gt;https://github.com/veldrane/crypto-ocp&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Short presentation for my teammates about cryptography, pki, oidc etc.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/crypto-ocp&#34;&gt;https://github.com/veldrane/crypto-ocp&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>checkpoint &lt;-&gt; openshift 3.x/4.x</title>
@@ -47,14 +47,14 @@
       <link>https://veldrane.github.io/slides/cntf-apigw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/cntf-apigw/</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;slides and presentation for cntf online conference&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/cntf-apigw&#34;&gt;https://github.com/veldrane/cntf-apigw&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&#34;&gt;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;slides and presentation for cntf online conference&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/cntf-apigw&#34;&gt;https://github.com/veldrane/cntf-apigw&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&#34;&gt;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>feg f5 days - cz</title>
       <link>https://veldrane.github.io/slides/feg-f5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/feg-f5/</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;Some stuff and hints for my presentation on F5 Days - building api gateway on nginx plus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/feg-f5-apigw&#34;&gt;https://github.com/veldrane/feg-f5-apigw&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Some stuff and hints for my presentation on F5 Days - building api gateway on nginx plus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/feg-f5-apigw&#34;&gt;https://github.com/veldrane/feg-f5-apigw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>openshift sdn cni</title>
