@@ -30,25 +30,25 @@
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ansible roles and bash scripts for building lab environment for testing mostly microservice architecture. The stack is build on the top of kvm and rocky linux 9 (use please rocky9 branch)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/lab&#34;&gt;https://github.com/veldrane/lab&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Feg F5</title>
+      <title>feg f5 days - cz</title>
       <link>https://veldrane.github.io/slides/feg-f5/</link>
       <pubDate>Thu, 31 Oct 2024 16:19:08 +0100</pubDate>
       <guid>https://veldrane.github.io/slides/feg-f5/</guid>
-      <description></description>
+      <description>&lt;p&gt;Some stuff and hints for my presentation on F5 Days - building api gateway on nginx plus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/feg-f5-apigw&#34;&gt;https://github.com/veldrane/feg-f5-apigw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Crypto Ocp</title>
+      <title>basic cryptography - cz</title>
       <link>https://veldrane.github.io/slides/crypto-ocp/</link>
       <pubDate>Thu, 31 Oct 2024 16:18:31 +0100</pubDate>
       <guid>https://veldrane.github.io/slides/crypto-ocp/</guid>
-      <description></description>
+      <description>&lt;p&gt;Short presentation for my teammates about cryptography, pki, oidc etc.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/crypto-ocp&#34;&gt;https://github.com/veldrane/crypto-ocp&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cntf Apigw</title>
+      <title>cntf conference: building api gateway from scratch - cz</title>
       <link>https://veldrane.github.io/slides/cntf-apigw/</link>
       <pubDate>Thu, 31 Oct 2024 16:18:04 +0100</pubDate>
       <guid>https://veldrane.github.io/slides/cntf-apigw/</guid>
-      <description></description>
+      <description>&lt;p&gt;slides and presentation for cntf online conference&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/cntf-apigw&#34;&gt;https://github.com/veldrane/cntf-apigw&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&#34;&gt;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>checkpoint &lt;-&gt; openshift 3.x/4.x</title>
