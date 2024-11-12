@@ -1,6 +1,7 @@
 +++
 draft = true
-title = 'syscall analyzer'
+title = 'strace analyzer'
+weight = 1
 +++
 
 <br><br>
@@ -19,4 +20,7 @@ And more...
 While the current code is a bit rough, the tool offers unique features, such as tracking the lifecycle of open file descriptors and network sockets, even across new threads. In the future, I plan to rewrite it in Go and incorporate additional metadata to enhance tracking of memory allocation, Linux epolls/async operations, signals, and more.
 
 
-https://github.com/veldrane/linux-syscall-analyzer
+https://github.com/veldrane/syscall-analyzer-ng - python parser has been upgraded to use latest elk version.
+
+
+https://github.com/veldrane/linux-syscall-analyzer - deprecated version
