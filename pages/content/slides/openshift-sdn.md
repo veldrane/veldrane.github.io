@@ -2,7 +2,9 @@
 draft = true
 title = 'openshift sdn cni'
 +++
+
 <br><br>
+
 Stuff for openshift slides, presented on Prague Kubernetes conference 22.sep.2019. Presentation contains deep-dive into openshift-sdn cni plugin (since ocp 4.12 is depcrecated - look at kubernetes-ovn)
 
 
