@@ -44,18 +44,18 @@
       <description>&lt;p&gt;Short presentation for my teammates about cryptography, pki, oidc etc.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/crypto-ocp&#34;&gt;https://github.com/veldrane/crypto-ocp&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>cntf conference: building api gateway from scratch - cz</title>
-      <link>https://veldrane.github.io/slides/cntf-apigw/</link>
-      <pubDate>Thu, 31 Oct 2024 16:18:04 +0100</pubDate>
-      <guid>https://veldrane.github.io/slides/cntf-apigw/</guid>
-      <description>&lt;p&gt;slides and presentation for cntf online conference&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/cntf-apigw&#34;&gt;https://github.com/veldrane/cntf-apigw&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&#34;&gt;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>checkpoint &lt;-&gt; openshift 3.x/4.x</title>
       <link>https://veldrane.github.io/projects/ocp-egress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/ocp-egress/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;A simple OpenShift controller for synchronizing external services and egress IP firewall rules. Rulesets are defined at the OpenShift namespace level using annotations. The controller does not utilize any operator framework, such as Kubebuilder, and instead polls the OpenShift API in a separate thread using standard get requests. It relies heavily on the OpenShift SDN CNI.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/ocp-chckp-egress&#34;&gt;https://github.com/veldrane/ocp-chckp-egress&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cntf conference: building api gateway from scratch - cz</title>
+      <link>https://veldrane.github.io/slides/cntf-apigw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/slides/cntf-apigw/</guid>
+      <description>&lt;p&gt;slides and presentation for cntf online conference&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/cntf-apigw&#34;&gt;https://github.com/veldrane/cntf-apigw&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&#34;&gt;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>openshift sdn cni</title>
