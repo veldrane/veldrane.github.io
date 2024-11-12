@@ -1,8 +1,8 @@
 +++
 draft = true
-title = 'cntf conference: building api gateway from scratch - cz'
+title = 'cntf: building api gateway - cz'
 +++
-
+<br><br>
 slides and presentation for cntf online conference
 
 https://github.com/veldrane/cntf-apigw
