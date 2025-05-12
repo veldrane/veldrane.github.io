@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-	<meta name="generator" content="Hugo 0.123.7"><title>index &ndash; -veldrane</title>
+    <head><title>krb5proxy &ndash; -veldrane</title>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://veldrane.github.io/index.xml" title="-veldrane">
 
 </head>
 
@@ -50,10 +48,17 @@
 </header>
 
             <section class="page__body">
-    <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>With over 20 years of experience in Unix system engineering, I bring a passion for building resilient, efficient systems as well as for programming in Go. I’m also exploring Rust as a new challenge, expanding my toolkit in system-level programming.</p>
-<p>Outside of it, I hold a HAM license, I am passionate about history, philosophy and enjoy the rhythms of cuban dances like a Salsa or Son :)</p>
+    <header class="content__header">
+        <h1>krb5proxy</h1>
+    </header>
+    <div class="content__body">
+        <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>krb5proxy is a minimal HTTP forward proxy that transparently injects Kerberos (Negotiate) authentication to upstream proxies or services requiring Proxy-Authorization: Negotiate <!-- raw HTML omitted --> like corporate proxies Cisco Was etc. It is designed for environments where clients are unable or unwilling to handle Kerberos themselves.</p>
+<p>The proxy acquires and injects Kerberos tokens using system keytab or the current user session and relays HTTP requests to the next hop, supporting both regular HTTP requests and HTTP CONNECT tunneling.</p>
+<p><a href="https://github.com/veldrane/krb5proxy">https://github.com/veldrane/krb5proxy</a></p>
 
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -66,6 +71,11 @@
 </div>
                 <hr>
                 <div class="aside__content">
+    
+    
+
+    
+
                 </div>
             </section>
 
