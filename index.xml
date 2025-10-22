@@ -36,11 +36,11 @@
       <description>Ansible roles and bash scripts for building lab environment for testing mostly microservice architecture. The stack is build on the top of kvm and rocky linux 9 (use please rocky9 branch)&#xA;https://github.com/veldrane/lab</description>
     </item>
     <item>
-      <title>Airaband frequencies in Czech Republic</title>
+      <title>Airband frequencies in Czech Republic</title>
       <link>https://veldrane.github.io/ham/airband/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/ham/airband/</guid>
-      <description>Radio frequency bands for overflights: Czech airspace is divided into three sectors — North, South, and West — with specific frequencies assigned based on flight levels.&#xA;[Airband + LKPR + CZ]({{ &amp;ldquo;downloads/airband_lkpr_cz.csv&amp;rdquo; | relURL }})</description>
+      <description>&#xA;Radio frequency bands for overflights: Czech airspace is divided into three sectors — North, South, and West — with specific frequencies assigned based on flight levels.&#xA;Stáhnout CSV </description>
     </item>
     <item>
       <title>basic cryptography - cz</title>

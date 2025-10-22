@@ -7,6 +7,9 @@ relativeURLs = true
 [params]
 sectionPagesMenu = "main"
 
+[security]
+enableInlineShortcodes = true
+
 [menu]
   [[menu.main]]
   identifier = "projects"
@@ -19,3 +22,9 @@ sectionPagesMenu = "main"
   name = "slides"
   url = "/slides/"
   weight = 2
+
+  [[menu.main]]
+  identifier = "ham"
+  name = "ham"
+  url = "/ham/"
+  weight = 3

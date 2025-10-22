@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>projects on -veldrane</title>
+    <title>slides on -veldrane</title>
     <link>http://localhost:1313/slides/</link>
-    <description>Recent content in projects on -veldrane</description>
-    <generator>Hugo</generator>
+    <description>Recent content in slides on -veldrane</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/slides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>basic cryptography - cz</title>
+      <link>http://localhost:1313/slides/crypto-ocp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/slides/crypto-ocp/</guid>
+      <description>Short presentation for my teammates about cryptography, pki, oidc etc.&#xA;https://github.com/veldrane/crypto-ocp</description>
+    </item>
+    <item>
+      <title>cntf: building api gateway - cz</title>
+      <link>http://localhost:1313/slides/cntf-apigw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/slides/cntf-apigw/</guid>
+      <description>slides and presentation for cntf online conference&#xA;https://github.com/veldrane/cntf-apigw&#xA;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC</description>
+    </item>
+    <item>
+      <title>feg f5 days - cz</title>
+      <link>http://localhost:1313/slides/feg-f5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/slides/feg-f5/</guid>
+      <description>Some stuff and hints for my presentation on F5 Days - building api gateway on nginx plus.&#xA;https://github.com/veldrane/feg-f5-apigw</description>
+    </item>
     <item>
       <title>openshift sdn cni</title>
       <link>http://localhost:1313/slides/openshift-sdn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/slides/openshift-sdn/</guid>
-      <description>&lt;p&gt;Stuff for openshift slides, presented on Prague Kubernetes conference 22.sep.2019. Presentation contains deep-dive into openshift-sdn cni plugin (since ocp 4.12 is depcrecated - look at kubernetes-ovn)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/veldrane/openshift-sdn&#34;&gt;https://github.com/veldrane/openshift-sdn&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Stuff for openshift slides, presented on Prague Kubernetes conference 22.sep.2019. Presentation contains deep-dive into openshift-sdn cni plugin (since ocp 4.12 is depcrecated - look at kubernetes-ovn)&#xA;https://github.com/veldrane/openshift-sdn</description>
     </item>
   </channel>
 </rss>
