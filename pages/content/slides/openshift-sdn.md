@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'openshift sdn cni'
+title = 'Openshift SDN CNI'
 +++
 
 <br><br>

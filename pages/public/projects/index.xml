@@ -8,49 +8,63 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>krb5proxy</title>
+      <title>Krb5proxy</title>
       <link>http://localhost:1313/projects/krb5proxy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/krb5proxy/</guid>
       <description>krb5proxy is a minimal HTTP forward proxy that transparently injects Kerberos (Negotiate) authentication to upstream proxies or services requiring Proxy-Authorization: Negotiate like corporate proxies Cisco Was etc. It is designed for environments where clients are unable or unwilling to handle Kerberos themselves.&#xA;The proxy acquires and injects Kerberos tokens using system keytab or the current user session and relays HTTP requests to the next hop, supporting both regular HTTP requests and HTTP CONNECT tunneling.</description>
     </item>
     <item>
-      <title>strace analyzer</title>
+      <title>Strace analyzer</title>
       <link>http://localhost:1313/projects/syscall-analyzer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/syscall-analyzer/</guid>
       <description>A proof of concept for a new approach to syscall analysis. This tool extracts data from strace, adds missing context, and stores it in a document-oriented database like Elasticsearch for further analysis. It’s particularly useful for:&#xA;Revealing the internal architecture of an application from the OS perspective Assisting in the creation of strict security policies Visualizing data flows within the traced application Capturing the application’s state at a specific point in time from the OS viewpoint Conducting application resource analysis And more&amp;hellip;</description>
     </item>
     <item>
-      <title>nginx plus keyval syncer</title>
+      <title>Nginx plus keyval syncer</title>
       <link>http://localhost:1313/projects/ocp-syncer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ocp-syncer/</guid>
       <description>This Golang tool checks for synchronization status across instances within the distributed key-value store of NGINX Plus in Kubernetes/OpenShift environments. Its purpose is to ensure that each instance has a consistent set of records, which is crucial for use cases like token verification. For example, if one instance has a token record but another does not yet reflect this, the verification may fail even though the token is valid. Custom JavaScript/Lua coding on the NGINX side is required for full integration.</description>
     </item>
     <item>
-      <title>lab roles, scripts, helm charts...</title>
+      <title>Simple rest api in Rust</title>
+      <link>http://localhost:1313/projects/rs-simple-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/rs-simple-api/</guid>
+      <description>A simple REST API built with the Poem framework, featuring fault injection, artificial delays, OpenTelemetry tracing, Prometheus metrics, JWT/OIDC authorization, and more.&#xA;I use this project primarily to test enterprise infrastructure components, and I keep extending it with new features (Kafka support is coming soon).&#xA;Some modules are still a work in progress — thanks for your patience.&#xA;https://github.com/veldrane/simple-api-rs.git</description>
+    </item>
+    <item>
+      <title>Tiny async runtime in Rust</title>
+      <link>http://localhost:1313/projects/tiny-async-rt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/tiny-async-rt/</guid>
+      <description>A minimalist async runtime for Rust — a vibe-coding challenge to deepen my understanding of how async works: Futures, polling, wakers, and the core building blocks.&#xA;https://github.com/veldrane/tiny-async-rt</description>
+    </item>
+    <item>
+      <title>Lab roles, scripts, helm charts...</title>
       <link>http://localhost:1313/projects/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/lab/</guid>
       <description>Ansible roles and bash scripts for building lab environment for testing mostly microservice architecture. The stack is build on the top of kvm and rocky linux 9 (use please rocky9 branch)&#xA;https://github.com/veldrane/lab</description>
     </item>
     <item>
-      <title>checkpoint &lt;-&gt; openshift 3.x/4.x</title>
+      <title>Checkpoint &lt;-&gt; openshift 3.x/4.x</title>
       <link>http://localhost:1313/projects/ocp-egress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ocp-egress/</guid>
       <description>A simple OpenShift controller for synchronizing external services and egress IP firewall rules. Rulesets are defined at the OpenShift namespace level using annotations. The controller does not utilize any operator framework, such as Kubebuilder, and instead polls the OpenShift API in a separate thread using standard get requests. It relies heavily on the OpenShift SDN CNI.&#xA;https://github.com/veldrane/ocp-chckp-egress</description>
     </item>
     <item>
-      <title>ovn kubernetes hints</title>
+      <title>OVN kubernetes hints</title>
       <link>http://localhost:1313/projects/ovn-kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ovn-kubernetes/</guid>
       <description>Some study materieal for learning ovn-kubernetes and ovn, its architecture and basic command usage.&#xA;https://github.com/veldrane/ovn-kubernetes-hints&#xA;https://ovn-kubernetes.io/&#xA;https://github.com/ovn-org/ovn-kubernetes</description>
     </item>
     <item>
-      <title>swagger to nginx cfg transformation tool</title>
+      <title>Swagger to nginx cfg transformation tool</title>
       <link>http://localhost:1313/projects/swag2nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/swag2nginx/</guid>

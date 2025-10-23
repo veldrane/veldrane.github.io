@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'strace analyzer'
+title = 'Strace analyzer'
 weight = 1
 +++
 

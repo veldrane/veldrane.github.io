@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'nginx plus keyval syncer'
+title = 'Nginx plus keyval syncer'
 weight = 2
 +++
 

@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'checkpoint <-> openshift 3.x/4.x'
+title = 'Checkpoint <-> openshift 3.x/4.x'
 +++
 
 <br><br>

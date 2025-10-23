@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'cntf: building api gateway - cz'
+title = 'CNTF: building api gateway - cz'
 +++
 
 <br><br>

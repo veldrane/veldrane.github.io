@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'krb5proxy'
+title = 'Krb5proxy'
 weight = 1
 +++
 

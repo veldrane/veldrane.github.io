@@ -28,3 +28,15 @@ enableInlineShortcodes = true
   name = "ham"
   url = "/ham/"
   weight = 3
+
+  [[menu.main]]
+  identifier = "dancing"
+  name = "dancing"
+  url = "/dancing/"
+  weight = 4
+
+    [[menu.main]]
+  identifier = "history"
+  name = "history"
+  url = "/history/"
+  weight = 5

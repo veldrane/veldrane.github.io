@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'swagger to nginx cfg transformation tool'
+title = 'Swagger to nginx cfg transformation tool'
 +++
 
 <br><br>

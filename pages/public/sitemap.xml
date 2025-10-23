@@ -8,11 +8,17 @@
   </url><url>
     <loc>http://localhost:1313/projects/ocp-syncer/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/rs-simple-api/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/tiny-async-rt/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/lab/</loc>
   </url><url>
     <loc>http://localhost:1313/ham/airband/</loc>
   </url><url>
     <loc>http://localhost:1313/slides/crypto-ocp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dancing/casino/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -20,9 +26,13 @@
   </url><url>
     <loc>http://localhost:1313/slides/cntf-apigw/</loc>
   </url><url>
+    <loc>http://localhost:1313/dancing/</loc>
+  </url><url>
     <loc>http://localhost:1313/slides/feg-f5/</loc>
   </url><url>
     <loc>http://localhost:1313/ham/</loc>
+  </url><url>
+    <loc>http://localhost:1313/history/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
@@ -32,7 +42,11 @@
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
+    <loc>http://localhost:1313/ham/cas6/</loc>
+  </url><url>
     <loc>http://localhost:1313/slides/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dancing/son/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/swag2nginx/</loc>
   </url><url>

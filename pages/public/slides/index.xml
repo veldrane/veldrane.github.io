@@ -8,28 +8,28 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/slides/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>basic cryptography - cz</title>
+      <title>Basic cryptography - cz</title>
       <link>http://localhost:1313/slides/crypto-ocp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/slides/crypto-ocp/</guid>
       <description>Short presentation for my teammates about cryptography, pki, oidc etc.&#xA;https://github.com/veldrane/crypto-ocp</description>
     </item>
     <item>
-      <title>cntf: building api gateway - cz</title>
+      <title>CNTF: building api gateway - cz</title>
       <link>http://localhost:1313/slides/cntf-apigw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/slides/cntf-apigw/</guid>
       <description>slides and presentation for cntf online conference&#xA;https://github.com/veldrane/cntf-apigw&#xA;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC</description>
     </item>
     <item>
-      <title>feg f5 days - cz</title>
+      <title>FEG F5 days - cz</title>
       <link>http://localhost:1313/slides/feg-f5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/slides/feg-f5/</guid>
       <description>Some stuff and hints for my presentation on F5 Days - building api gateway on nginx plus.&#xA;https://github.com/veldrane/feg-f5-apigw</description>
     </item>
     <item>
-      <title>openshift sdn cni</title>
+      <title>Openshift SDN CNI</title>
       <link>http://localhost:1313/slides/openshift-sdn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/slides/openshift-sdn/</guid>

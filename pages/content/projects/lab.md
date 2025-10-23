@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'lab roles, scripts, helm charts...'
+title = 'Lab roles, scripts, helm charts...'
 weight = 3
 +++
 

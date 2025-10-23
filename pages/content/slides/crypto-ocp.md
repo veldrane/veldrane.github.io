@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'basic cryptography - cz'
+title = 'Basic cryptography - cz'
 +++
 
 <br><br>

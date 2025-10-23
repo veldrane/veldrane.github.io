@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'feg f5 days - cz'
+title = 'FEG F5 days - cz'
 +++
 
 <br><br>
