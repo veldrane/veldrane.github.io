@@ -12,7 +12,14 @@
       <link>https://veldrane.github.io/ham/airband/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/ham/airband/</guid>
-      <description>&#xA;Radio frequency bands for overflights: Czech airspace is divided into three sectors — North, South, and West — with specific frequencies assigned based on flight levels.&#xA;Stáhnout CSV </description>
+      <description>&#xA;Radio frequency bands for overflights: Czech airspace is divided into three sectors — North, South, and West — with specific frequencies assigned based on flight levels.&#xA;Download CSV </description>
+    </item>
+    <item>
+      <title>Satellite CAS-6 (TO-108) Beacon: 145.910 MHZ - CW</title>
+      <link>https://veldrane.github.io/ham/cas6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/ham/cas6/</guid>
+      <description>CAS6 overflight and beacon receiving</description>
     </item>
   </channel>
 </rss>

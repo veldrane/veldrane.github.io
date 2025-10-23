@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dancing on -veldrane</title>
+    <link>https://veldrane.github.io/dancing/</link>
+    <description>Recent content in dancing on -veldrane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://veldrane.github.io/dancing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Casino (Cuban Salsa) Videos</title>
+      <link>https://veldrane.github.io/dancing/casino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/dancing/casino/</guid>
+      <description>Some notable videos of casino (not casino rueda) from YouTube.&#xA;Osbanis and Rafael with Farita - social dancing cuban salsa: https://youtu.be/-YE_QFzce68?si=kxOpJEICgrzIyCLk&#xA;Salsa Cubana (casino) en La Habana, Cuba (Lisandra en 1830): https://youtu.be/GxNyxF3nkCo?si=imAVq_Vtf2h9CZZ6&#xA;Adonis Santiago y Cristina Bolbat bailando salsa con El Niño y La Verdad: https://youtu.be/5CLqh-pPzwQ?si=xNTqPRbUHOk4FvVc&#xA;Juan from Cubamemucho dances casino in Munich: https://youtu.be/8rQk3Grj3kY?si=UmtvMhZY0X_caz5n</description>
+    </item>
+    <item>
+      <title>Son Videos</title>
+      <link>https://veldrane.github.io/dancing/son/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/dancing/son/</guid>
+      <description>Some notable videos of cuban son from YouTube.&#xA;Yoannis Tamayo et Madeline Rodriguez, Carnaval Salsa Festival 2016: https://youtu.be/hd5KXXdiVh4?si=F1HeRLafXzZjJ0OZ</description>
+    </item>
+  </channel>
+</rss>

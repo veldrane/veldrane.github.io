@@ -8,28 +8,42 @@
     <language>en-us</language>
     <atom:link href="https://veldrane.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>krb5proxy</title>
+      <title>Krb5proxy</title>
       <link>https://veldrane.github.io/projects/krb5proxy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/krb5proxy/</guid>
       <description>krb5proxy is a minimal HTTP forward proxy that transparently injects Kerberos (Negotiate) authentication to upstream proxies or services requiring Proxy-Authorization: Negotiate like corporate proxies Cisco Was etc. It is designed for environments where clients are unable or unwilling to handle Kerberos themselves.&#xA;The proxy acquires and injects Kerberos tokens using system keytab or the current user session and relays HTTP requests to the next hop, supporting both regular HTTP requests and HTTP CONNECT tunneling.</description>
     </item>
     <item>
-      <title>strace analyzer</title>
+      <title>Strace analyzer</title>
       <link>https://veldrane.github.io/projects/syscall-analyzer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/syscall-analyzer/</guid>
       <description>A proof of concept for a new approach to syscall analysis. This tool extracts data from strace, adds missing context, and stores it in a document-oriented database like Elasticsearch for further analysis. It’s particularly useful for:&#xA;Revealing the internal architecture of an application from the OS perspective Assisting in the creation of strict security policies Visualizing data flows within the traced application Capturing the application’s state at a specific point in time from the OS viewpoint Conducting application resource analysis And more&amp;hellip;</description>
     </item>
     <item>
-      <title>nginx plus keyval syncer</title>
+      <title>Nginx plus keyval syncer</title>
       <link>https://veldrane.github.io/projects/ocp-syncer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/ocp-syncer/</guid>
       <description>This Golang tool checks for synchronization status across instances within the distributed key-value store of NGINX Plus in Kubernetes/OpenShift environments. Its purpose is to ensure that each instance has a consistent set of records, which is crucial for use cases like token verification. For example, if one instance has a token record but another does not yet reflect this, the verification may fail even though the token is valid. Custom JavaScript/Lua coding on the NGINX side is required for full integration.</description>
     </item>
     <item>
-      <title>lab roles, scripts, helm charts...</title>
+      <title>Simple rest api in Rust</title>
+      <link>https://veldrane.github.io/projects/rs-simple-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/projects/rs-simple-api/</guid>
+      <description>A simple REST API built with the Poem framework, featuring fault injection, artificial delays, OpenTelemetry tracing, Prometheus metrics, JWT/OIDC authorization, and more.&#xA;I use this project primarily to test enterprise infrastructure components, and I keep extending it with new features (Kafka support is coming soon).&#xA;Some modules are still a work in progress — thanks for your patience.&#xA;https://github.com/veldrane/simple-api-rs.git</description>
+    </item>
+    <item>
+      <title>Tiny async runtime in Rust</title>
+      <link>https://veldrane.github.io/projects/tiny-async-rt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/projects/tiny-async-rt/</guid>
+      <description>A minimalist async runtime for Rust — a vibe-coding challenge to deepen my understanding of how async works: Futures, polling, wakers, and the core building blocks.&#xA;https://github.com/veldrane/tiny-async-rt</description>
+    </item>
+    <item>
+      <title>Lab roles, scripts, helm charts...</title>
       <link>https://veldrane.github.io/projects/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/lab/</guid>
@@ -40,52 +54,73 @@
       <link>https://veldrane.github.io/ham/airband/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/ham/airband/</guid>
-      <description>&#xA;Radio frequency bands for overflights: Czech airspace is divided into three sectors — North, South, and West — with specific frequencies assigned based on flight levels.&#xA;Stáhnout CSV </description>
+      <description>&#xA;Radio frequency bands for overflights: Czech airspace is divided into three sectors — North, South, and West — with specific frequencies assigned based on flight levels.&#xA;Download CSV </description>
     </item>
     <item>
-      <title>basic cryptography - cz</title>
+      <title>Basic cryptography - cz</title>
       <link>https://veldrane.github.io/slides/crypto-ocp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/crypto-ocp/</guid>
       <description>Short presentation for my teammates about cryptography, pki, oidc etc.&#xA;https://github.com/veldrane/crypto-ocp</description>
     </item>
     <item>
-      <title>checkpoint &lt;-&gt; openshift 3.x/4.x</title>
+      <title>Casino (Cuban Salsa) Videos</title>
+      <link>https://veldrane.github.io/dancing/casino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/dancing/casino/</guid>
+      <description>Some notable videos of casino (not casino rueda) from YouTube.&#xA;Osbanis and Rafael with Farita - social dancing cuban salsa: https://youtu.be/-YE_QFzce68?si=kxOpJEICgrzIyCLk&#xA;Salsa Cubana (casino) en La Habana, Cuba (Lisandra en 1830): https://youtu.be/GxNyxF3nkCo?si=imAVq_Vtf2h9CZZ6&#xA;Adonis Santiago y Cristina Bolbat bailando salsa con El Niño y La Verdad: https://youtu.be/5CLqh-pPzwQ?si=xNTqPRbUHOk4FvVc&#xA;Juan from Cubamemucho dances casino in Munich: https://youtu.be/8rQk3Grj3kY?si=UmtvMhZY0X_caz5n</description>
+    </item>
+    <item>
+      <title>Checkpoint &lt;-&gt; openshift 3.x/4.x</title>
       <link>https://veldrane.github.io/projects/ocp-egress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/ocp-egress/</guid>
       <description>A simple OpenShift controller for synchronizing external services and egress IP firewall rules. Rulesets are defined at the OpenShift namespace level using annotations. The controller does not utilize any operator framework, such as Kubebuilder, and instead polls the OpenShift API in a separate thread using standard get requests. It relies heavily on the OpenShift SDN CNI.&#xA;https://github.com/veldrane/ocp-chckp-egress</description>
     </item>
     <item>
-      <title>cntf: building api gateway - cz</title>
+      <title>CNTF: building api gateway - cz</title>
       <link>https://veldrane.github.io/slides/cntf-apigw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/cntf-apigw/</guid>
       <description>slides and presentation for cntf online conference&#xA;https://github.com/veldrane/cntf-apigw&#xA;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC</description>
     </item>
     <item>
-      <title>feg f5 days - cz</title>
+      <title>FEG F5 days - cz</title>
       <link>https://veldrane.github.io/slides/feg-f5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/feg-f5/</guid>
       <description>Some stuff and hints for my presentation on F5 Days - building api gateway on nginx plus.&#xA;https://github.com/veldrane/feg-f5-apigw</description>
     </item>
     <item>
-      <title>openshift sdn cni</title>
+      <title>Openshift SDN CNI</title>
       <link>https://veldrane.github.io/slides/openshift-sdn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/slides/openshift-sdn/</guid>
       <description>Stuff for openshift slides, presented on Prague Kubernetes conference 22.sep.2019. Presentation contains deep-dive into openshift-sdn cni plugin (since ocp 4.12 is depcrecated - look at kubernetes-ovn)&#xA;https://github.com/veldrane/openshift-sdn</description>
     </item>
     <item>
-      <title>ovn kubernetes hints</title>
+      <title>OVN kubernetes hints</title>
       <link>https://veldrane.github.io/projects/ovn-kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/ovn-kubernetes/</guid>
       <description>Some study materieal for learning ovn-kubernetes and ovn, its architecture and basic command usage.&#xA;https://github.com/veldrane/ovn-kubernetes-hints&#xA;https://ovn-kubernetes.io/&#xA;https://github.com/ovn-org/ovn-kubernetes</description>
     </item>
     <item>
-      <title>swagger to nginx cfg transformation tool</title>
+      <title>Satellite CAS-6 (TO-108) Beacon: 145.910 MHZ - CW</title>
+      <link>https://veldrane.github.io/ham/cas6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/ham/cas6/</guid>
+      <description>CAS6 overflight and beacon receiving</description>
+    </item>
+    <item>
+      <title>Son Videos</title>
+      <link>https://veldrane.github.io/dancing/son/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/dancing/son/</guid>
+      <description>Some notable videos of cuban son from YouTube.&#xA;Yoannis Tamayo et Madeline Rodriguez, Carnaval Salsa Festival 2016: https://youtu.be/hd5KXXdiVh4?si=F1HeRLafXzZjJ0OZ</description>
+    </item>
+    <item>
+      <title>Swagger to nginx cfg transformation tool</title>
       <link>https://veldrane.github.io/projects/swag2nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/swag2nginx/</guid>
