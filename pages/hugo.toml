@@ -1,14 +1,35 @@
 baseURL = 'https://veldrane.github.io/'
-languageCode = 'en-us'
 title = '-veldrane'
 theme = 'risotto'
 relativeURLs = true
+lang= "en"
+languageCode = "en"
+DefaultContentLanguage = "en"
+copyright = "© -veldrane"
 
 [params]
 sectionPagesMenu = "main"
+palette = "tender"
 
 [security]
 enableInlineShortcodes = true
+
+
+[params.about]
+title = "email and github"
+description = "Feel free to contact me at:"
+# unicode/emoji logo:
+logo = "📡"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/veldrane"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:gveldrane@gmail.com"
 
 [menu]
   [[menu.main]]

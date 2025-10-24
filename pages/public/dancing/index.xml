@@ -5,7 +5,8 @@
     <link>http://localhost:1313/dancing/</link>
     <description>Recent content in dancing on -veldrane</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>© -veldrane</copyright>
     <atom:link href="http://localhost:1313/dancing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Casino (Cuban Salsa) Videos</title>

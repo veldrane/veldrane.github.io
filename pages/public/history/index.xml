@@ -5,7 +5,8 @@
     <link>http://localhost:1313/history/</link>
     <description>Recent content in history on -veldrane</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>© -veldrane</copyright>
     <atom:link href="http://localhost:1313/history/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
