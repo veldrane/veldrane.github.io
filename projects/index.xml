@@ -43,6 +43,13 @@
       <description>A minimalist async runtime for Rust — a vibe-coding challenge to deepen my understanding of how async works: Futures, polling, wakers, and the core building blocks.&#xA;https://github.com/veldrane/tiny-async-rt</description>
     </item>
     <item>
+      <title>Vulnerable API Pinger</title>
+      <link>https://veldrane.github.io/projects/app-pinger-vuln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/projects/app-pinger-vuln/</guid>
+      <description>A minimalist API intentionally containing a remote code execution (RCE) vulnerability, intended for demos and hands-on exercises in security talks, containerization, networking, and related scenarios.&#xA;https://github.com/veldrane/app-pinger-vulnerable</description>
+    </item>
+    <item>
       <title>Lab roles, scripts, helm charts...</title>
       <link>https://veldrane.github.io/projects/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
