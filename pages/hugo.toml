@@ -9,11 +9,10 @@ copyright = "© -veldrane"
 
 [params]
 sectionPagesMenu = "main"
-palette = "tender"
+theme.palette = "tokyo-night-dark"
 
 [security]
 enableInlineShortcodes = true
-
 
 [params.about]
 title = "email and github"
@@ -56,7 +55,7 @@ url = "mailto:gveldrane@gmail.com"
   url = "/dancing/"
   weight = 4
 
-    [[menu.main]]
+  [[menu.main]]
   identifier = "history"
   name = "history"
   url = "/history/"
