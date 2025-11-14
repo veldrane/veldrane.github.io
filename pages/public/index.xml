@@ -16,6 +16,13 @@
       <description>krb5proxy is a minimal HTTP forward proxy that transparently injects Kerberos (Negotiate) authentication to upstream proxies or services requiring Proxy-Authorization: Negotiate like corporate proxies Cisco Was etc. It is designed for environments where clients are unable or unwilling to handle Kerberos themselves.&#xA;The proxy acquires and injects Kerberos tokens using system keytab or the current user session and relays HTTP requests to the next hop, supporting both regular HTTP requests and HTTP CONNECT tunneling.</description>
     </item>
     <item>
+      <title>Kubernetes mutation webhook implemented in rust</title>
+      <link>http://localhost:1313/projects/mutationwh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mutationwh/</guid>
+      <description>A minimal Rust-based Kubernetes mutating webhook. It listens for Pod creation events from the Kubernetes API and, if a specific annotation is present, it injects container port definitions into the Pod spec.&#xA;This is intended to mitigate issues with Prometheus metrics scraping in OpenShift, where the monitoring operator fails to generate correct scrape configs if the containerPort section is missing from the Pod specification.&#xA;https://github.com/veldrane/mutation-webhook-rs</description>
+    </item>
+    <item>
       <title>Strace analyzer</title>
       <link>http://localhost:1313/projects/syscall-analyzer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,6 +98,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/slides/cntf-apigw/</guid>
       <description>slides and presentation for cntf online conference&#xA;https://github.com/veldrane/cntf-apigw&#xA;https://youtu.be/faxn53s3l3U?si=ZbefMGjScqAtcXbC</description>
+    </item>
+    <item>
+      <title>Dance events</title>
+      <link>http://localhost:1313/dancing/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dancing/events/</guid>
+      <description>Some notable events - tests</description>
     </item>
     <item>
       <title>FEG F5 days - cz</title>

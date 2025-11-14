@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>projects &ndash; -veldrane</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Kubernetes mutation webhook implemented in rust &ndash; -veldrane</title>
 <meta name="description" content="Feel free to contact me at:">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/projects/index.xml" title="-veldrane">
 
 </head>
 
@@ -39,7 +38,7 @@
       <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">-veldrane</a></h1></li>
     
     
-    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/projects/" title="">projects</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">projects</a></li>
     
     <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/slides/" title="">slides</a></li>
     
@@ -55,53 +54,18 @@
 </header>
 
             <section class="page__body">
-    <h1 id="projects">projects</h1>
-    <br>
+    <header class="content__header">
+        <h1>Kubernetes mutation webhook implemented in rust</h1>
+    </header>
+    <div class="content__body">
+        <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>A minimal Rust-based Kubernetes mutating webhook.
+It listens for Pod creation events from the Kubernetes API and, if a specific annotation is present, it injects container port definitions into the Pod spec.</p>
+<p>This is intended to mitigate issues with Prometheus metrics scraping in OpenShift, where the monitoring operator fails to generate correct scrape configs if the containerPort section is missing from the Pod specification.</p>
+<p><a href="https://github.com/veldrane/mutation-webhook-rs">https://github.com/veldrane/mutation-webhook-rs</a></p>
 
-    <p>A collection of tools and experiments built mostly in Rust, Go, Helm, and JavaScript.
-I focus on identity-aware networking, automation, and low-level infrastructure topics.
-Most of these projects come from real-world needs in my lab and production environments.
-Expect practical solutions, rough edges, and continuous improvement.</p>
-
-
-    <br>
-    <ul>
-    
-        <li><a href="http://localhost:1313/projects/krb5proxy/">Krb5proxy</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/mutationwh/">Kubernetes mutation webhook implemented in rust</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/syscall-analyzer/">Strace analyzer</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/ocp-syncer/">Nginx plus keyval syncer</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/rs-simple-api/">Simple rest api in Rust</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/tiny-async-rt/">Tiny async runtime in Rust</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/app-pinger-vuln/">Vulnerable API Pinger</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/lab/">Lab roles, scripts, helm charts&hellip;</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/ocp-egress/">Checkpoint &lt;-&gt; openshift 3.x/4.x</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/ovn-kubernetes/">OVN kubernetes hints</a></li>
-
-    
-        <li><a href="http://localhost:1313/projects/swag2nginx/">Swagger to nginx cfg transformation tool</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -129,6 +93,9 @@ Expect practical solutions, rough edges, and continuous improvement.</p>
 </div>
                 <hr>
                 <div class="aside__content">
+    
+    
+
     
 
                 </div>

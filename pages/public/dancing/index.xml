@@ -16,6 +16,13 @@
       <description>Some notable videos of casino (not casino rueda) from YouTube.&#xA;Osbanis and Rafael with Farita - social dancing cuban salsa: https://youtu.be/-YE_QFzce68?si=kxOpJEICgrzIyCLk&#xA;Salsa Cubana (casino) en La Habana, Cuba (Lisandra en 1830): https://youtu.be/GxNyxF3nkCo?si=imAVq_Vtf2h9CZZ6&#xA;Adonis Santiago y Cristina Bolbat bailando salsa con El Niño y La Verdad: https://youtu.be/5CLqh-pPzwQ?si=xNTqPRbUHOk4FvVc&#xA;Juan from Cubamemucho dances casino in Munich: https://youtu.be/8rQk3Grj3kY?si=UmtvMhZY0X_caz5n</description>
     </item>
     <item>
+      <title>Dance events</title>
+      <link>http://localhost:1313/dancing/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dancing/events/</guid>
+      <description>Some notable events - tests</description>
+    </item>
+    <item>
       <title>Son Videos</title>
       <link>http://localhost:1313/dancing/son/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

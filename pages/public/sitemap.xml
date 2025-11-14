@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1313/projects/krb5proxy/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/mutationwh/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/syscall-analyzer/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/ocp-syncer/</loc>
@@ -27,6 +29,8 @@
     <loc>http://localhost:1313/projects/ocp-egress/</loc>
   </url><url>
     <loc>http://localhost:1313/slides/cntf-apigw/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dancing/events/</loc>
   </url><url>
     <loc>http://localhost:1313/dancing/</loc>
   </url><url>
