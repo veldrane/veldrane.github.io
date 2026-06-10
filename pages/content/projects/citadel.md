@@ -4,6 +4,8 @@ title = 'Citadel Lab - Kubernetes with OVN-Kuberntes CNI'
 weight = 2
 +++
 
+<br><br>
+
 On-prem Kubernetes lab (v1.35.0 with OVN-Kubernetes 1.2.0) as a personal side project. The idea wasn’t just “run k8s”, but to 
 model something closer to a real-world enterprise / hybrid setup.
 

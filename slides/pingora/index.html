@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Citadel Lab - Kubernetes with OVN-Kuberntes CNI &ndash; -veldrane</title>
+    <head><title>Pingora &ndash; -veldrane</title>
 <meta name="description" content="Feel free to contact me at:">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,26 +55,13 @@
 
             <section class="page__body">
     <header class="content__header">
-        <h1>Citadel Lab - Kubernetes with OVN-Kuberntes CNI</h1>
+        <h1>Pingora</h1>
     </header>
     <div class="content__body">
         <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>On-prem Kubernetes lab (v1.35.0 with OVN-Kubernetes 1.2.0) as a personal side project. The idea wasn’t just “run k8s”, but to
-model something closer to a real-world enterprise / hybrid setup.</p>
-<p>Current stack includes:</p>
-<ul>
-<li>Rocky Linux 9 based nodes</li>
-<li>FreeIPA as the identity backbone (users, hosts, DNS, certs)</li>
-<li>Keycloak federated to IPA (OIDC for API server, kubectl, dashboard)</li>
-<li>Private registry</li>
-<li>Dedicated build server</li>
-<li>Jump host / bastion for cluster access</li>
-<li>kubeadm-based bootstrap</li>
-</ul>
-<p>Ingress is currently external IP + keepalived style (still experimenting, MetalLB is on the wishlist).</p>
-<p>It’s very much work-in-progress and not fully polished, but it’s been a fun exercise in understanding identity, networking,
-and “how things actually work under the hood” rather than using managed cloud services.</p>
-<p><a href="https://github.com/veldrane/citadel-core">https://github.com/veldrane/citadel-core</a></p>
+<p>I’ve recently started writing a mini-series for Root.cz focused on Pingora — Cloudflare’s modern Rust-based proxy framework designed for building high-performance and programmable reverse proxies, gateways, and network services.</p>
+<p>The series begins with an introduction to Pingora’s architecture, background, and real-world use cases, including why Cloudflare moved away from NGINX at their scale. The second article dives deeper into request processing, proxy lifecycle, internal workflow, and implementing custom proxy logic in Rust. The goal is to provide a practical, developer-oriented look at Pingora and show how flexible and powerful the framework really is.</p>
+<!-- raw HTML omitted -->
 
     </div>
     <footer class="content__footer"></footer>
@@ -106,6 +93,11 @@ and “how things actually work under the hood” rather than using managed clou
                 <hr>
                 <div class="aside__content">
     
+    
+        <p>
+            
+            2026-06-10
+        </p>
     
 
     

@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© -veldrane</copyright>
+    <lastBuildDate>Wed, 10 Jun 2026 11:11:04 +0200</lastBuildDate>
     <atom:link href="https://veldrane.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Krb5proxy</title>
@@ -70,6 +71,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://veldrane.github.io/projects/lab/</guid>
       <description>Ansible roles and bash scripts for building lab environment for testing mostly microservice architecture. The stack is build on the top of kvm and rocky linux 9 (use please rocky9 branch)&#xA;https://github.com/veldrane/lab</description>
+    </item>
+    <item>
+      <title>Pingora</title>
+      <link>https://veldrane.github.io/slides/pingora/</link>
+      <pubDate>Wed, 10 Jun 2026 11:11:04 +0200</pubDate>
+      <guid>https://veldrane.github.io/slides/pingora/</guid>
+      <description>I’ve recently started writing a mini-series for Root.cz focused on Pingora — Cloudflare’s modern Rust-based proxy framework designed for building high-performance and programmable reverse proxies, gateways, and network services.&#xA;The series begins with an introduction to Pingora’s architecture, background, and real-world use cases, including why Cloudflare moved away from NGINX at their scale. The second article dives deeper into request processing, proxy lifecycle, internal workflow, and implementing custom proxy logic in Rust.</description>
     </item>
     <item>
       <title>Airband frequencies in Czech Republic</title>
