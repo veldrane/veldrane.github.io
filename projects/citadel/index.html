@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>projects &ndash; -veldrane</title>
+    <head><title>Citadel Lab - Kubernetes with OVN-Kuberntes CNI &ndash; -veldrane</title>
 <meta name="description" content="Feel free to contact me at:">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://veldrane.github.io/projects/index.xml" title="-veldrane">
 
 </head>
 
@@ -39,7 +38,7 @@
       <li class="nomarker"><h1 class="page__logo"><a href="https://veldrane.github.io/" class="page__logo-inner">-veldrane</a></h1></li>
     
     
-    <li class="main-nav__item"><a class="nav-main-item active" href="https://veldrane.github.io/projects/" title="">projects</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="https://veldrane.github.io/projects/" title="">projects</a></li>
     
     <li class="main-nav__item"><a class="nav-main-item" href="https://veldrane.github.io/slides/" title="">slides</a></li>
     
@@ -55,56 +54,29 @@
 </header>
 
             <section class="page__body">
-    <h1 id="projects">projects</h1>
-    <br>
+    <header class="content__header">
+        <h1>Citadel Lab - Kubernetes with OVN-Kuberntes CNI</h1>
+    </header>
+    <div class="content__body">
+        <p>On-prem Kubernetes lab (v1.35.0 with OVN-Kubernetes 1.2.0) as a personal side project. The idea wasn’t just “run k8s”, but to
+model something closer to a real-world enterprise / hybrid setup.</p>
+<p>Current stack includes:</p>
+<ul>
+<li>Rocky Linux 9 based nodes</li>
+<li>FreeIPA as the identity backbone (users, hosts, DNS, certs)</li>
+<li>Keycloak federated to IPA (OIDC for API server, kubectl, dashboard)</li>
+<li>Private registry</li>
+<li>Dedicated build server</li>
+<li>Jump host / bastion for cluster access</li>
+<li>kubeadm-based bootstrap</li>
+</ul>
+<p>Ingress is currently external IP + keepalived style (still experimenting, MetalLB is on the wishlist).</p>
+<p>It’s very much work-in-progress and not fully polished, but it’s been a fun exercise in understanding identity, networking,
+and “how things actually work under the hood” rather than using managed cloud services.</p>
+<p><a href="https://github.com/veldrane/citadel-core">https://github.com/veldrane/citadel-core</a></p>
 
-    <p>A collection of tools and experiments built mostly in Rust, Go, Helm, and JavaScript.
-I focus on identity-aware networking, automation, and low-level infrastructure topics.
-Most of these projects come from real-world needs in my lab and production environments.
-Expect practical solutions, rough edges, and continuous improvement.</p>
-
-
-    <br>
-    <ul>
-    
-        <li><a href="https://veldrane.github.io/projects/krb5proxy/">Krb5proxy</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/mutationwh/">Kubernetes mutation webhook implemented in rust</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/syscall-analyzer/">Strace analyzer</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/citadel/">Citadel Lab - Kubernetes with OVN-Kuberntes CNI</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/ocp-syncer/">Nginx plus keyval syncer</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/rs-simple-api/">Simple rest api in Rust</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/tiny-async-rt/">Tiny async runtime in Rust</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/app-pinger-vuln/">Vulnerable API Pinger</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/lab/">Lab roles, scripts, helm charts&hellip;</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/ocp-egress/">Checkpoint &lt;-&gt; openshift 3.x/4.x</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/ovn-kubernetes/">OVN kubernetes hints</a></li>
-
-    
-        <li><a href="https://veldrane.github.io/projects/swag2nginx/">Swagger to nginx cfg transformation tool</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -132,6 +104,9 @@ Expect practical solutions, rough edges, and continuous improvement.</p>
 </div>
                 <hr>
                 <div class="aside__content">
+    
+    
+
     
 
                 </div>

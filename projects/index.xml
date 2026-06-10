@@ -30,6 +30,13 @@
       <description>A proof of concept for a new approach to syscall analysis. This tool extracts data from strace, adds missing context, and stores it in a document-oriented database like Elasticsearch for further analysis. It’s particularly useful for:&#xA;Revealing the internal architecture of an application from the OS perspective Assisting in the creation of strict security policies Visualizing data flows within the traced application Capturing the application’s state at a specific point in time from the OS viewpoint Conducting application resource analysis And more&amp;hellip;</description>
     </item>
     <item>
+      <title>Citadel Lab - Kubernetes with OVN-Kuberntes CNI</title>
+      <link>https://veldrane.github.io/projects/citadel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://veldrane.github.io/projects/citadel/</guid>
+      <description>On-prem Kubernetes lab (v1.35.0 with OVN-Kubernetes 1.2.0) as a personal side project. The idea wasn’t just “run k8s”, but to model something closer to a real-world enterprise / hybrid setup.&#xA;Current stack includes:&#xA;Rocky Linux 9 based nodes FreeIPA as the identity backbone (users, hosts, DNS, certs) Keycloak federated to IPA (OIDC for API server, kubectl, dashboard) Private registry Dedicated build server Jump host / bastion for cluster access kubeadm-based bootstrap Ingress is currently external IP + keepalived style (still experimenting, MetalLB is on the wishlist).</description>
+    </item>
+    <item>
       <title>Nginx plus keyval syncer</title>
       <link>https://veldrane.github.io/projects/ocp-syncer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
